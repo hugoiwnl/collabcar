@@ -34,5 +34,5 @@ It consists of two applications:
 
 
 # FRI Ljubljana 2020/2021
-# Predrag Djindjic 63180362
-# Grigor Ristov 63180343
+### Predrag Djindjic 63180362
+### Grigor Ristov 63180343
