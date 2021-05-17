@@ -20,13 +20,13 @@ Remember to leave a rating for the car owner after the ride, it means they’re 
 Our project was completely made in Java, using JavaFX for user interface.
 It consists of two applications:
 
-### Client-side application;
+### Client-side application
 
 
 ![Client Side 1](client1.png)
 ![Client Side 2](client2.png)
 
-###and also the Admin-side application.
+### and also the Admin-side application.
 
 
 ![Admin Side 1](admin1.png)
