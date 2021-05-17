@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Datoteka">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#closeCB" text="Zapri" />
+                  <MenuItem mnemonicParsing="false" text="Pobrisi" />
+                  <MenuItem mnemonicParsing="false" text="Shrani" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Preveri">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Preveri" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="About">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#aboutCB" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TabPane layoutY="-1.0" prefHeight="299.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Podatke o voznik">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="14.0" layoutY="33.0" text="Ime: " />
+                              <Label layoutX="17.0" layoutY="81.0" text="Priimek: " />
+                              <TextField fx:id="ime" layoutX="107.0" layoutY="29.0" prefHeight="25.0" prefWidth="175.0" />
+                              <TextField fx:id="priimek" layoutX="107.0" layoutY="77.0" prefHeight="25.0" prefWidth="176.0" />
+                              <Label layoutX="13.0" layoutY="135.0" text="Datum rojstva: " />
+                              <DatePicker fx:id="datumRojstva" layoutX="107.0" layoutY="131.0" prefHeight="25.0" prefWidth="178.0" />
+                              <Label layoutX="325.0" layoutY="33.0" text="Ulica: " />
+                              <Label layoutX="325.0" layoutY="81.0" text="Kraj: " />
+                              <Label layoutX="325.0" layoutY="135.0" text="Hisna St: " />
+                              <Label layoutX="13.0" layoutY="196.0" text="Leti izkusnje: " />
+                              <Spinner fx:id="izkusnje" layoutX="107.0" layoutY="192.0" prefHeight="25.0" prefWidth="181.0" />
+                              <Spinner fx:id="hisnaCB" layoutX="399.0" layoutY="131.0" />
+                              <TextField fx:id="kraj" layoutX="399.0" layoutY="77.0" />
+                              <TextField fx:id="ulica" layoutX="399.0" layoutY="29.0" />
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Podatke o avto">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="275.0" prefWidth="600.0">
+                           <children>
+                              <Label layoutX="14.0" layoutY="37.0" text="Znamka: " />
+                              <TextField fx:id="znamka" layoutX="121.0" layoutY="33.0" prefHeight="25.0" prefWidth="170.0" />
+                              <Label layoutX="16.0" layoutY="92.0" text="Oznaka: " />
+                              <TextField layoutX="121.0" layoutY="88.0" prefHeight="25.0" prefWidth="172.0" />
+                              <Label layoutX="17.0" layoutY="142.0" text="Prve registracije: " />
+                              <DatePicker fx:id="prveRegistracije" layoutX="121.0" layoutY="138.0" prefHeight="25.0" prefWidth="172.0" />
+                              <Label layoutX="332.0" layoutY="37.0" text="Luxury: " />
+                              <ChoiceBox fx:id="avtoCB" layoutX="412.0" layoutY="33.0" prefWidth="150.0" />
+                              <Label layoutX="14.0" layoutY="193.0" text="Stevilo vrat: " />
+                              <Spinner fx:id="vrateCB" layoutX="121.0" layoutY="189.0" prefHeight="25.0" prefWidth="171.0" />
+                              <Label layoutX="332.0" layoutY="92.0" text="Prometna nesreca: " />
+                              <RadioButton fx:id="prometDA" layoutX="451.0" layoutY="92.0" mnemonicParsing="false" text="Da" />
+                              <RadioButton fx:id="prometNE" layoutX="502.0" layoutY="92.0" mnemonicParsing="false" text="Ne" />
+                              <Label layoutX="332.0" layoutY="142.0" text="Tablice: " />
+                              <TextField fx:id="tablice" layoutX="413.0" layoutY="138.0" />
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Podatke o trip">
+                      <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="14.0" layoutY="38.0" text="Mesto zacetek: " />
+                              <Label layoutX="14.0" layoutY="103.0" text="Mesto kraj: " />
+                              <TextField layoutX="111.0" layoutY="34.0" prefHeight="25.0" prefWidth="171.0" />
+                              <TextField layoutX="111.0" layoutY="99.0" prefHeight="25.0" prefWidth="174.0" />
+                              <Label layoutX="14.0" layoutY="168.0" text="Datum: " />
+                              <DatePicker fx:id="datePickup" layoutX="110.0" layoutY="164.0" prefHeight="25.0" prefWidth="175.0" />
+                              <Label layoutX="325.0" layoutY="38.0" text="Priporocana cena: " />
+                              <TextField layoutX="436.0" layoutY="34.0" prefHeight="25.0" prefWidth="55.0" />
+                              <Label layoutX="325.0" layoutY="103.0" text="Rating za Voznja: " />
+                              <TextField layoutX="436.0" layoutY="99.0" prefHeight="25.0" prefWidth="55.0" />
+                           </children></AnchorPane>
+                      </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+            <Label layoutX="14.0" layoutY="331.0" text="Status: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="statusCB" layoutX="86.0" layoutY="332.0" prefHeight="25.0" prefWidth="349.0" />
+            <Button fx:id="preveri" layoutX="475.0" layoutY="319.0" mnemonicParsing="false" onAction="#preveriCB" prefHeight="25.0" prefWidth="107.0" text="Preveri " />
+            <Button fx:id="shrani" layoutX="475.0" layoutY="349.0" mnemonicParsing="false" onAction="#shraniCB" prefHeight="25.0" prefWidth="107.0" text="Shrani" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
