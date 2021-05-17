@@ -7,7 +7,7 @@ CollabCar is a project me and my colleague Grigor did, which is an information s
 Carpooling is when several people travel together by car and share the cost of the journey. You probably already carpool very often with family and friends: every time you take the car together you share the cost of a journey with them. In much the same way, CollabCar connects car owners and co-travellers to share city-to-city journeys, so that they can share a long distance trip together, and both save money.
 
 ## How does CollabCar work?
-1. Find a ride
+### 1. Find a ride
 Just enter your departure and arrival points and your travel date, then choose a car owner going your way. If you have a question, you can ask the car owner before booking.
 Check out the car owners' trusted profiles, including ratings left for them by other members. 
 2. Book online
