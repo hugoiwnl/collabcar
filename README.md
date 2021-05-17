@@ -31,3 +31,8 @@ It consists of two applications:
 
 ![Admin Side 1](admin1.png)
 ![Admin Side 2](admin2.png)
+
+
+# FRI Ljubljana 2020/2021
+# Predrag Djindjic 63180362
+# Grigor Ristov 63180343
