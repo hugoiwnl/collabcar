@@ -10,9 +10,9 @@ Carpooling is when several people travel together by car and share the cost of t
 ### 1. Find a ride
 Just enter your departure and arrival points and your travel date, then choose a car owner going your way. If you have a question, you can ask the car owner before booking.
 Check out the car owners' trusted profiles, including ratings left for them by other members. 
-2. Book online
+### 2. Book online
 Book your seat online. You’ll get the car owner's phone number to arrange the final details.
-3. Travel together
+### 3. Travel together
 Bring exact change to pay the car owner the agreed contribution during the ride or pay through credit card.
 Remember to leave a rating for the car owner after the ride, it means they’re more likely to leave one for you!
 
@@ -20,10 +20,14 @@ Remember to leave a rating for the car owner after the ride, it means they’re 
 Our project was completely made in Java, using JavaFX for user interface.
 It consists of two applications:
 
-Client-side application;
+### Client-side application;
+
+
 ![Client Side 1](client1.png)
 ![Client Side 2](client2.png)
 
-and also the Admin-side application.
+###and also the Admin-side application.
+
+
 ![Admin Side 1](admin1.png)
 ![Admin Side 2](admin2.png)
